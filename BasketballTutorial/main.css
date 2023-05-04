@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;   
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+
+body {
+    /*background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;*/
+}
+
+#scroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+  }
+  
+  #scroll::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9fd;
+  }
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: #000000;
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+img { 
+    pointer-events: none;
+}
+
+ul {
+    display: flex;
+    margin-right: 80px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: #fff;
+    padding: 0 20px;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(228, 125, 52);
+}
+
+.brand {
+    font-size: 1.8em;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 80px;
+    display: flex;
+}
+
+.brand p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.brand img {
+    margin-top: 1px;
+    width: 70px;
+    height: 70px;
+}
+
+.videos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video {
+    margin: 0px 40px;
+    width: 500px;
+}
+
+.video p {
+    margin-top: 20px;
+}
+
+.main {
+    margin-bottom: 50px;
+}
+
+.main p {
+    text-align: left;
+}
+
+.rules {
+    margin-left: 25px;
+    margin-top: 100px;
+    margin-right: 200px;
+    display: flex;
+    font-size: 20px;
+}
+
+.rules img {
+    width: 450px;
+    height: 250px;
+    margin-right: -170px;
+}
+
+.rules p {
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+.team {
+    margin-left: 25px;
+    margin-top: 100px;
+    margin-right: 200px;
+    display: flex;
+    font-size: 20px;
+}
+
+.team img {
+    width: 350px;
+    height: 170px;
+    margin-right: -170px;
+}
+
+.team p {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.time {
+    margin-left: 25px;
+    margin-top: 100px;
+    margin-right: 200px;
+    display: flex;
+    font-size: 20px;
+}
+
+.time img {
+    width: 200px;
+    height: 200px;
+    margin-right: -140px;
+}
+
+.time p {
+    margin-right: 50px;
+    margin-left: 70px;
+}
+
+.court {
+    margin-left: 25px;
+    margin-top: 100px;
+    margin-right: 200px;
+    display: flex;
+    font-size: 20px;
+}
+
+.court img {
+    width: 400px;
+    height: 220px;
+    margin-right: -170px;
+}
+
+.court p {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.termins {
+    margin-left: 25px;
+    margin-top: 100px;
+    margin-right: 200px;
+    display: flex;
+    font-size: 20px;
+}
+
+.termins img {
+    width: 400px;
+    height: 220px;
+    margin-right: -170px;
+}
+
+.termins p {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+iframe {
+    margin-top: 150px;
+}
+
+.fints-header {
+    margin-top: 110px;
+    margin-bottom: -150px;
+    display: flex;
+    justify-content: center;
+}
+
+.fint {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.fint p {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 200px;
+    font-size: 18px;
+}
+
+.fint iframe {
+    width: 1200px;
+}
+
+@media (max-width: 1159px) {
+
+    .video {
+        margin-top: -80px;
+    }
+
+}
+
+@media (max-width: 990px) {
+
+    nav {
+        top: 0;
+        width: 100%;
+        height: 120px;
+        background: #000000;
+        box-sizing: border-box;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+        transition: 0.5s;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .brand p {
+        margin-top: 0px;
+        font-size: 22px;
+    }
+
+    .b1 {
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+
+    .b2 {
+        margin-top: 90px;
+        margin-left: -260px;
+    }
+
+    .main {
+        margin-bottom: 0px;
+    }
+
+    .main img {
+        width: 0;
+    }
+
+    .main h1 {
+        font-size: 25px;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main p {
+        margin-right: -10px;
+        margin-top: 30px;
+        font-size: 17px;
+        text-align: left;
+    }
+
+    .rules {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-right: 50px;
+    }
+
+    .rules p {
+        margin-left: 0px;
+    }
+
+    .team {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: -200px;
+        margin-right: 50px;
+    }
+
+    .team p {
+        margin-left: 0px;
+    }
+
+    .time {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: -120px;
+        margin-right: 50px;
+    }
+
+    .time p {
+        margin-left: 0;
+    }
+
+    .court {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: -150px;
+        margin-right: 50px;
+    }
+
+    .court p {
+        margin-left: 0;
+    }
+
+    .termins {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: -200px;
+        margin-right: 50px;
+    }
+
+    .termins p {
+        margin-left: 0;
+    }
+
+    .videos {
+        margin-top: 60px;
+    }
+
+    .fints-main {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-right: 350px;
+        margin-left: 300px;
+        margin-bottom: 100px;
+    }
+
+    .fints-main h1 {
+        margin-left: -180px;
+        margin-right: -220px;
+        margin-bottom: -180px;
+    }
+
+    .fints-header {
+        font-size: 25px;
+        margin-top: 100px;
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .fints-main iframe {
+        margin-top: 170px;
+        margin-left: 150px;
+    }
+
+    .fints-main p { 
+        margin-top: 30px;
+        font-size: 17px;
+        margin-left: 150px;
+        text-align: left;
+    }
+
+    .fint {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-bottom: -60px;
+    }
+
+    .fint iframe {
+        width: 500px;
+    }
+    
+}
+
+@media (max-width: 718px) {
+
+    .b1 {
+        margin-left: -100px;
+    }
+
+    .b2 {
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .fints-main {
+        margin-left: 200px;
+        margin-right: 250px;
+    }
+
+    .fint iframe {
+        width: 400px;
+        height: 220px;
+    }
+
+    .fints-main h1 {
+        margin-left: -180px;
+        margin-right: -220px;
+    }
+}
+
+@media (max-width: 445px) {
+    .fints-main {
+        margin-left: 100px;
+        margin-right: 150px;
+    }
+}
