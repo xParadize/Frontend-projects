@@ -1,9 +1,9 @@
 body{
 	background-image: url(img/gif1.gif);
-	background-size: cover; /*на весь экран*/
+	background-size: cover; 
 	background-position: center;
 
-	background-attachment: fixed; /* фиксирует фон на одно месте*/
+	background-attachment: fixed;
 }
 .main{
 	border: 1px solid black;
@@ -20,8 +20,8 @@ body{
 	height: 400px;
 	background-color: blue;
 	margin: 7px;
-	opacity: 0.9; /*прозрачность*/
-	transition: 0.5s; /*плавное выделение*/
+	opacity: 0.9; 
+	transition: 0.5s; 
 
 	background-size: cover;
 	background-position: center;
@@ -30,7 +30,7 @@ body{
 .item:hover{
 	box-shadow: 4px 4px 11px;
 	opacity: 1;
-	transform: scale(1.1) rotate(10deg); /*увеличение элемента*/
+	transform: scale(1.1) rotate(10deg); 
 	z-index: 100;
 }
 h1{
